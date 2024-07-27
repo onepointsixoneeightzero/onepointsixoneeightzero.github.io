@@ -1,0 +1,97 @@
+:root {
+    --circle-diameter: 7rem;
+    --font-size: 1rem;
+    --background-color: #007bff;
+    --hover-background-color: #0056b3;
+  }
+
+.work-sans-normal {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+
+  .work-sans-bold {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;
+  }
+
+  .text-black{
+    color: rgb(0, 0, 0) !important;
+  }
+
+.mt-6{
+    margin-top: 6rem;
+}
+.mt-7{
+    margin-top: 7rem;
+}
+
+  .image-circle{
+    border-radius: 15rem;
+    border: 0.09rem solid;
+    border-color: black;
+    max-width: 100%;
+    height: auto;
+    /* box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px; */
+    box-shadow: rgba(17, 12, 46, 0.15) 2rem 2rem 2rem 2rem;
+  }
+
+  .mt-0{
+    margin-top: 0;
+  }
+
+  .mb-0{
+    margin-bottom:0;
+  }
+
+
+  .drop{
+    background: rgb(33,37,41);
+    background: -moz-radial-gradient(circle, rgba(33,37,41,1) 0%, rgba(255,255,255,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(33,37,41,1) 0%, rgba(255,255,255,1) 100%);
+    background: radial-gradient(circle, rgba(33,37,41,1) 0%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#212529",endColorstr="#ffffff",GradientType=1); 
+  }
+
+
+  .test-circle{
+    display: inline-block;
+    width: var(--circle-diameter);
+    height: var(--circle-diameter);
+    line-height: var(--circle-diameter); /* vertically center the text */
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    font-size: var(--font-size);
+    border: 0.09rem solid;
+    border-color: black;
+    color: black;
+    
+  }
+
+  .test-circle:hover {
+    background-color: var(--hover-background-color);
+    color: white;
+    text-decoration: none;
+  }
+
+
+
+
+.bg-light-green{
+    background-color: #bada55;
+}
+.bg-orange{
+    background-color: #eea302;
+}
+.bg-cyan{
+    background-color: #80d8da;
+}
+.bg-gray{
+    background-color: #c7c7c7;
+}
